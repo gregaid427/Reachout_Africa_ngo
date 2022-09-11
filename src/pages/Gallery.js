@@ -41,12 +41,19 @@ export const Gallery = () => {
         name="gallery"
         className="max-w-[1150px] mx-auto  flex  flex-col "
       >
-        <div className=" w-full flex rounded-md justify-between p-3 text-center bg-[#ff520d4f]">
-          <p className="text-3xl"> Reach out Upperwest </p>{" "}
-          <p className="text-2xl justify-center">15th july 2022</p>
+        <div className=" w-full flex sm:flex-col rounded-md justify-between p-3 text-center bg-[#ff520d4f]">
+          <p className="text-2xl"> Reach out Upperwest </p>{" "}
+          <p className="text-xl justify-center">15th july 2022</p>
+          <button className="hidden text-black text-xl mx-auto bg-orange-300 group border-2 md:px-6 sm:px-3 md:py-3 sm:py-2 my-2  items-center ">
+                  view images{" "}
+                  {/* <span className="group-hover:pl-5 duration-300">
+                  <HiArrowNarrowRight className="ml-3 " />
+                </span> */}
+                </button>
         </div>
       <div className="my-3"></div>
-      <Gallery1 photos={photos} onClick={openLightbox} />
+      <div className="sm:grid-cols-2">
+      <div className=" grid sm:rows-span-1 gap-0 "  ><Gallery1 photos={photos} onClick={openLightbox} /></div></div>
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

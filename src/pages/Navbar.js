@@ -22,9 +22,10 @@ export const Logout = () => {
       {/* <div>
         <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
       </div> */}
+      {/* <div className=" text-orange-500 md:hidden ">.</div> */}
 
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex lg:flex xl:flex">
       <Link to="/">
           <li>
             <p className="text-2xl">Home</p>

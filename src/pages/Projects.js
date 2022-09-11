@@ -14,7 +14,7 @@ export const Projects = () => {
         </div>
       </div> */}
 
-<div className=" py-10 pt-[90px] ">
+<div className=" py-10  pt-[90px] ">
       <div className=" text-4xl flex justify-start items-center flex-col ">
               <div className="border-red-400 font-bold  border-b-4 ">
               Our Projects
@@ -24,19 +24,19 @@ export const Projects = () => {
 
       <div
         name="events"
-        className="max-w-[1150px] mx-auto  flex items-center my-10 gap-4     justify-between"
+        className="max-w-[1150px] mx-auto  flex items-center my-10 sm:my-0 gap-4     justify-between"
       >
         <div className="   grid md:grid-cols-2 sm:grid-cols-1  md:p-0 sm:px-5 gap-4 shadow-md w-full h-full ">
           <div className="  w-full md:rows-span-1  mx-auto mb-5 sm:rows-span-1">
-            <p className="p-3 bg-[#ff510d7c] text-3xl">Reach Out Upperwest</p>
-            <div className="flex justify-between">
-              {" "}
-              <p className="p-3  text-center text-2xl">Location : Upperwest</p>
-              <p className="p-3  text-center text-2xl">Date : 21 May, 2021</p>
-            </div>
+            <p className="p-3 bg-[#ff510d7c] text-2xl">Reach Out Upperwest</p>
+           
+             
+              <p className="pl-3   text-xl">Location : Upperwest</p>
+              <p className="pl-3  text-xl">Date : 21 May, 2021</p>
+          
             <div className="p-3">
-              <p className="  text-2xl font-bold ">Activities</p>
-              <p className=" text-2xl">Health Screening</p><p className=" text-2xl">Crusade</p><p className="text-2xl">Giveaways</p>
+              <p className="  text-xl font-bold ">Activities</p>
+              <p className=" text-xl">Health Screening</p><p className=" text-xl">Crusade</p><p className="text-xl">Giveaways</p>
             </div>
             <div className=" flex items-center justify-center ">
               {/* <a href="./projects">   <button className="text-black bg-slate-400 group border-2 px-6 py-3 my-2 flex  items-center  hover:bg-pink-600 hover:border-pink-600">
