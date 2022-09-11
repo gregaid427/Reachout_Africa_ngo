@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Calibri] 
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer
+    }
+    .max{
+        @apply max-w-[1000px]
+    }
+}
