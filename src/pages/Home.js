@@ -80,7 +80,7 @@ export const Home = () => {
     <>
       {" "}
       <div name="home" className="sm:hidden">
-        <img className=" md:flex w-full h-screen" src={bgg}></img>
+        <img className=" md:flex w-full " src={bgg}></img>
         {/* <div className="relative flex flex-col">
           <div className="  absolute mt-[-30%] left-[20%] text-[8rem] text-white font-bold  ">Reach Out Africa  </div>{" "}
           <div className="  absolute mt-[-22%] left-[33%] text-[6rem] text-white font-bold  ">Foundation </div>{" "}
