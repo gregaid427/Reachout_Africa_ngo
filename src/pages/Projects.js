@@ -26,8 +26,8 @@ export const Projects = () => {
         name="events"
         className="max-w-[1150px] mx-auto  flex items-center my-10 sm:my-0 gap-4     justify-between"
       >
-        <div className="   grid md:grid-cols-2 sm:grid-cols-1  md:p-0 sm:px-5 gap-4 shadow-md w-full h-full ">
-          <div className="  w-full md:rows-span-1  mx-auto mb-5 sm:rows-span-1">
+        <div className="  grid md:grid-cols-2 sm:grid-cols-1  md:p-0 sm:px-5 gap-4  w-full h-full ">
+          <div className=" shadow-xl w-full md:rows-span-1  mx-auto mb-5 sm:rows-span-1">
             <p className="p-3 bg-[#ff510d7c] text-2xl">Reach Out Upperwest</p>
            
              
