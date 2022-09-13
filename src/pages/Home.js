@@ -87,7 +87,7 @@ export const Home = () => {
         </div> */}
       </div>
       <div name="home" className="">
-        <img className="sm:flex md:hidden w-full h-screen" src={bg}></img>
+        <img className="sm:flex md:hidden w-full " src={bg}></img>
       </div>
       <div
         name="about"
