@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import b from "../gallery_images/3.jpg";
+import c from "../gallery_images/kl.jpg ";
 import { Outlet, Link } from "react-router-dom";
 
 export const Projects = () => {
@@ -105,7 +106,7 @@ export const Projects = () => {
             </div>
           </div>{" "}
           <div className=" md:rows-span-1 mx-auto mb-5 sm:rows-span-1  ">
-            <img className=" h-[330px] w-[600px]" src={b}></img>
+            <img className=" h-[330px] w-[600px]" src={c}></img>
           </div>
         </div>
       </div>
@@ -141,7 +142,7 @@ export const Projects = () => {
             </div>
           </div>{" "}
           <div className=" md:rows-span-1 mx-auto mb-5 sm:rows-span-1  ">
-            <img className=" h-[330px] w-[600px]" src={b}></img>
+            {/* <img className=" h-[330px] w-[600px]" src={}></img> */}
           </div>
         </div>
       </div>
