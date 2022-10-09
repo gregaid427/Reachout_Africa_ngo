@@ -100,10 +100,10 @@ export const Home = () => {
             </div>
             <div className="flex justify-center text-xl  text-center">
               {" "}
-              Reach out Africa a non profit orrganisation Reach out Africa a non
-              profit orrganisation Reach out Africa a non profit orrganisation
-              Reach out Africa a non profit orrganisation Reach out Africa a non
-         
+              Reach out Africa is a non-profit organization made up of students,
+              lawyers, pharmacists, doctors, nurses and other professionals who
+              are like-minded in bringing relief to dispirited communities in
+              Africa.
             </div>
           </div>
           {/* <div className=" flex-1 flex ">
@@ -115,9 +115,11 @@ export const Home = () => {
       <div className="my-10 text-left max-w-[1150px] border-l-4 pl-3 md:auto sm:ml-5 sm:px-5 border-orange-500 flex md:mx-auto justify-center items-left flex-col ">
         <p className="text-3xl font-bold">Our Vision</p>
         <p className="text-xl">
-          to the people in our communities. We feel the need of the suffering
-          and that we reach out in kind and other humanitarian services to help
-          as much as we can
+          We feel the need of the suffering and that we reach out in kind and
+          other humanitarian services to help as much as we can. Activities of
+          our outreach programs include; health promotion through health
+          education and free screening, mentorship program to school children,
+          donations, and general counseling.
         </p>
       </div>
       <div
@@ -169,30 +171,30 @@ export const Home = () => {
         <div className=" gap-5 sm:gap-0 items-center my-10 sm:px-5  grid md:grid-cols-3 sm:grid-cols-1  justify-center ">
           <div className="shadow-md rounded-md flex-1 sm:mb-5 md:rows-span-1 mx-auto mb-5 sm:rows-span-1 ">
             <img className=" w-full " src={p1}></img>
-            <p className="p-3 text-center text-xl">Reach Out Upperwest</p>
+            <p className="p-3 text-center text-xl">Reach Out Upper West</p>
             <p className="p-3 text-xl ">
               {" "}
-              Location --- <br></br>
-              Date: 21st may 2021
+              Location Jagluu, Upper west - Ghana <br></br>
+              Year : October 2021
             </p>
           </div>
 
           <div className="shadow-md rounded-md flex-1 sm:mb-5 md:rows-span-1 mx-auto mb-5 sm:rows-span-1 ">
             <img className=" w-full " src={p1}></img>
-            <p className="p-3 text-center text-xl">Reach Out Upperwest</p>
+            <p className="p-3 text-center text-xl">Hit The Streets Campaign</p>
             <p className="p-3 text-xl ">
               {" "}
-              Location --- <br></br>
-              Date: 21st may 2021
+              Location : Ashanti Region - Ghana <br></br>
+              Year : 2019
             </p>
           </div>
           <div className="shadow-md rounded-md flex-1 sm:mb-5 md:rows-span-1 mx-auto mb-5 sm:rows-span-1 ">
             <img className=" w-full " src={p1}></img>
-            <p className="p-3 text-center text-xl">Reach Out Upperwest</p>
+            <p className="p-3 text-center text-xl">High School Tour</p>
             <p className="p-3 text-xl ">
               {" "}
-              Location --- <br></br>
-              Date: 21st may 2021
+              Location : Ashanti Region - Ghana <br></br>
+              Year : 2018
             </p>
           </div>
         </div>
@@ -247,13 +249,13 @@ export const Home = () => {
           <div className="shadow-md rounded-md md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={dd}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Debbie</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl"> Deborah Kabutey</p>
           </div>
 
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={bb}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> volunteer</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl"> Vida Sarfo</p>
           </div>
         </div>
 
@@ -261,7 +263,7 @@ export const Home = () => {
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className="w-full" src={jj}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Joe</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl"> Joseph Balami</p>
           </div>
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={as}></img>
@@ -274,13 +276,13 @@ export const Home = () => {
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g1}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Volunteer</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl"> Khaleb Vanderpuye</p>
           </div>
 
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g2}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> volunteer</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl"> Rhoda Nkrumah</p>
           </div>
         </div>
       </div>
@@ -360,48 +362,24 @@ export const Home = () => {
                       />
                     </a>
 
-                    <div className="flex items-center  ">@gmail.com </div>
+                    <div className="flex items-center  ">reachoutafricango@gmail.com </div>
                   </li>
                 </ul>
-                <ul>
-                  <li className=" px-0 flex gap-5 ">
-                    <a className="flex   " href="/">
-                      <FaFacebook
-                        size={45}
-                        className=" text-white  bg-orange-600 p-2 rounded-md"
-                      />
-                    </a>
-
-                    <div className="flex items-center  ">facebook </div>
-                  </li>
-                </ul>
-                <ul>
-                  <li className=" px-0 flex gap-5 ">
-                    <a className="flex   " href="/">
-                      <FaTwitter
-                        size={45}
-                        className=" text-white  bg-orange-600 p-2 rounded-md"
-                      />
-                    </a>
-
-                    <div className="flex items-center  ">Twitter </div>
-                  </li>
-                </ul>
+        
+            
               </div>
             </div>
           </div>{" "}
         </div>
       </div>
-     
-        <div className=" flex mx-auto flex-col justify-around md:p-10 sm:p-5  bg-orange-500 pb-7  ">
-          <p className=" m-3 text-center md:text-5xl text-white font-bold sm:text-3xl">
-            We can’t help everyone, but everyone can help someone
-          </p>
-          <p className=" p-3 sm:p-2  border-4 text-2xl rounded-[50px] text-white mx-auto ">
-            Become A Volunteer
-          </p>
-        </div>
-     
+      <div className=" flex mx-auto flex-col justify-around md:p-10 sm:p-5  bg-orange-500 pb-7  ">
+        <p className=" m-3 text-center md:text-5xl text-white font-bold sm:text-3xl">
+          We can’t help everyone, but everyone can help someone
+        </p>
+        <p className=" p-3 sm:p-2  border-4 text-2xl rounded-[50px] text-white mx-auto ">
+          Become A Volunteer
+        </p>
+      </div>
       <div
         name="gallery"
         className="max-w-[1150px] mx-auto  flex  my-10 gap-4 flex-col  md:px-0 sm:px-5"
