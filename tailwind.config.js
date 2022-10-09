@@ -7,10 +7,10 @@ module.exports = {
         'sm': { 'max': '480px'},
         // => @media (min-width: 640px and max-width: 767px) { ... }
   
-        'md': {'min': '481px', 'max': '768px'},
+        'md': {'min': '481px'},
         // => @media (min-width: 768px and max-width: 1023px) { ... }
   
-        'lg': {'min': '769px', 'max': '1509px'},
+        // 'lg': {'min': '769px', 'max': '1509px'},
         // => @media (min-width: 1024px and max-width: 1279px) { ... }
   
         // 'xl': {'min': '1029px', 'max': '1279px'},
