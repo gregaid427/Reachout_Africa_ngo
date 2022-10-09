@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import b from "../gallery_images/3.jpg";
-import b from "../gallery_images/1.jpg";
+import c from "../gallery_images/1.jpg";
 import { Outlet, Link } from "react-router-dom";
 
 export const Projects = () => {
