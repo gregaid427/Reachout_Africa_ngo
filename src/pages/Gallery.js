@@ -43,7 +43,7 @@ export const Gallery = () => {
       >
         <div className=" w-full flex sm:flex-col rounded-md justify-between p-3 text-center bg-[#ff520d4f]">
           <p className="text-2xl"> Reach out Upperwest </p>{" "}
-          <p className="text-xl justify-center">15th july 2022</p>
+          <p className="text-xl justify-center">October 2021</p>
           <button className="hidden text-black text-xl mx-auto bg-orange-300 group border-2 md:px-6 sm:px-3 md:py-3 sm:py-2 my-2  items-center ">
                   view images{" "}
                   {/* <span className="group-hover:pl-5 duration-300">
