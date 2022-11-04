@@ -230,10 +230,18 @@ export const Home = () => {
         <div className="grid md:grid-cols-4 sm:grid-cols-2  items-center md:gap-5 sm:gap-2 ">
           <div className="shadow-md rounded-md md:rows-span-1 mx-auto md:mb-5 sm:rows-span-1 ">
             <img className="w-full " src={mn}></img>
-            <p className="p-3 text-center text-xl">Founder</p>
+            <p className="p-3 text-center text-xl">Founder/President</p>
             <p className="p-3 text-center  bg-orange-100 text-1xl">
               {" "}
               Monique Nkrumah
+            </p>
+          </div>
+          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
+            <img className=" w-full " src={as}></img>
+            <p className="p-3 text-center text-xl">Vice President</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">
+              {" "}
+              Abena Tiwaa Kusi
             </p>
           </div>
 
@@ -249,13 +257,13 @@ export const Home = () => {
           <div className="shadow-md rounded-md md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={dd}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Deborah Kabutey</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Deborah Kabutey</p>
           </div>
 
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={bb}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Vida Sarfo</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Dorah Adusei</p>
           </div>
         </div>
 
@@ -263,26 +271,19 @@ export const Home = () => {
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className="w-full" src={jj}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Joseph Balami</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Baffour Akoto</p>
           </div>
-          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
-            <img className=" w-full " src={as}></img>
-            <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl">
-              {" "}
-              Abena Tiwaa Kusi
-            </p>
-          </div>
+     
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g1}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Khaleb Vanderpuye</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Khaleb Vanderpuye</p>
           </div>
 
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g2}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl"> Rhoda Nkrumah</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Michelle Serwaa Nkrumah</p>
           </div>
         </div>
       </div>
@@ -323,7 +324,7 @@ export const Home = () => {
                       />
                     </a>
 
-                    <div className="flex items-center  ">+233 244 244 2444</div>
+                    <div className="flex items-center  ">+233 2442442444</div>
                   </li>
                 </ul>
                 <ul>
@@ -335,7 +336,7 @@ export const Home = () => {
                       />
                     </a>
 
-                    <div className="flex items-center  ">+233 50 159 6901</div>
+                    <div className="flex items-center  ">+233 501596901</div>
                   </li>
                 </ul>
                 <ul>
@@ -409,7 +410,7 @@ export const Home = () => {
         <div className=" flex  justify-center ">
           <Link to="/gallery">
             {" "}
-            <button className="text-black text-1xl bg-orange-300 group border-2 md:px-6 sm:px-3 md:py-3 sm:py-2 my-2 flex  items-center">
+            <button className="texmt-black text-1xl bg-orange-300 group border-2 md:px-6 sm:px-3 md:py-3 sm:py-2 my-2 flex  items-center">
               view all{" "}
               {/* <span className="group-hover:pl-5 duration-300">
                   <HiArrowNarrowRight className="ml-3 " />
