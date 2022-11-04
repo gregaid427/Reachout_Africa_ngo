@@ -236,7 +236,7 @@ export const Home = () => {
               Monique Nkrumah
             </p>
           </div>
-          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
+          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-1 ">
             <img className=" w-full " src={as}></img>
             <p className="p-3 text-center text-xl">Vice President</p>
             <p className="p-3 text-center bg-orange-100 text-1xl">
@@ -245,7 +245,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="shadow-md rounded-md md:rows-span-1 mx-auto md:mb-5 sm:rows-span-1 ">
+          <div className="shadow-md rounded-md md:rows-span-1 mx-auto md:mb-5 sm:rows-span-2 ">
             <img className="w-full" src={gg}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
             <p className="p-3 text-center bg-orange-100 text-1xl">
@@ -292,7 +292,7 @@ export const Home = () => {
         className=" mx-auto  md:flex items-center md:my-10 sm:mb-0   justify-center "
       >
         <div className=" md:flex  max-w-[1150px] flex-row w-full h-full gap-4">
-          <div className="p-7 flex-1 shadow-md  bg-[#d1673d]">
+          <div className="p-5 flex-1 shadow-md  bg-[#d1673d]">
             <p className=" text-white font-bold md:text-8xl sm:text-6xl ">
               Donate
             </p>
