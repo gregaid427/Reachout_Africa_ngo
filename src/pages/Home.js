@@ -363,7 +363,7 @@ export const Home = () => {
                       />
                     </a>
 
-                    <div className="flex items-center  ">reachoutafricango@gmail.com </div>
+                    <div className="flex items-center  ">reachoutafricango@gmail.com</div>
                   </li>
                 </ul>
         
