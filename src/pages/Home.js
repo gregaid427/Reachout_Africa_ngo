@@ -260,11 +260,7 @@ export const Home = () => {
             <p className="p-3 text-center bg-orange-100 text-1xl">Deborah Kabutey</p>
           </div>
 
-          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
-            <img className=" w-full " src={bb}></img>
-            <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl">Dorah Adusei</p>
-          </div>
+        
         </div>
 
         <div className="grid md:grid-cols-4 sm:grid-cols-2 mt-2 items-center md:gap-5 sm:gap-2 ">
@@ -273,7 +269,11 @@ export const Home = () => {
             <p className="p-3 text-center text-xl">Volunteer</p>
             <p className="p-3 text-center bg-orange-100 text-1xl">Baffour Akoto</p>
           </div>
-     
+          <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
+            <img className=" w-full " src={bb}></img>
+            <p className="p-3 text-center text-xl">Volunteer</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Dorah Adusei</p>
+          </div>
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g1}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
@@ -306,7 +306,7 @@ export const Home = () => {
               Vodafone Wallet : +233 50 159 6901
             </p>
           </div>{" "}
-          <div className="p-7 pt-3 flex-1 shadow-md ">
+          <div className="p-5 pt-3 flex-1 shadow-md ">
             <div className=" md:text-4xl sm:text-3xl  flex justify-start items-start flex-col mb-8  ">
               <div className="border-red-400 sm:mx-auto  border-b-4 ">
                 Get In Touch With Us
