@@ -316,7 +316,7 @@ export const Home = () => {
             <div className=" flex gap-20 sm:gap-3 sm:flex-col ">
               <div className="flex flex-col gap-2  ">
                 <ul>
-                  <li className=" px-0 flex gap-5 ">
+                  <li className=" px-0 flex gap-4 ">
                     <a className="flex   " href="/">
                       <FaPhone
                         size={45}
@@ -328,7 +328,7 @@ export const Home = () => {
                   </li>
                 </ul>
                 <ul>
-                  <li className=" px-0 flex gap-5 ">
+                  <li className=" px-0 flex gap-4 ">
                     <a className="flex   " href="/">
                       <FaWhatsapp
                         size={45}
@@ -340,7 +340,7 @@ export const Home = () => {
                   </li>
                 </ul>
                 <ul>
-                  <li className=" px-0 flex gap-5 ">
+                  <li className=" px-0 flex gap-4 ">
                     <a className="flex   " href="/">
                       <FaInstagram
                         size={45}
@@ -355,7 +355,7 @@ export const Home = () => {
 
               <div className="flex flex-col gap-2  ">
                 <ul>
-                  <li className=" px-0 flex gap-5 ">
+                  <li className=" px-0 flex gap-4 ">
                     <a className="flex   " href="/">
                       <FaMailBulk
                         size={45}
