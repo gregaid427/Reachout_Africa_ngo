@@ -267,7 +267,7 @@ export const Home = () => {
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className="w-full" src={jj}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl">Baffour Akoto</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Joseph Baalami</p>
           </div>
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={bb}></img>
@@ -277,7 +277,8 @@ export const Home = () => {
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
             <img className=" w-full " src={g1}></img>
             <p className="p-3 text-center text-xl">Volunteer</p>
-            <p className="p-3 text-center bg-orange-100 text-1xl">Khaleb Vanderpuye</p>
+            <p className="p-3 text-center bg-orange-100 text-1xl">Baffour Akoto</p>
+        
           </div>
 
           <div className="shadow-md rounded-md  md:rows-span-1 mx-auto md:mb-5 sm:cols-span-2 ">
